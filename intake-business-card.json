@@ -1,0 +1,16 @@
+{
+  "form_name": "Business Card Intake - Flawless Branding Co.",
+  "fields": [
+    {"label": "Full Name", "type": "text", "required": true},
+    {"label": "Business Name", "type": "text", "required": true},
+    {"label": "Email", "type": "email", "required": true},
+    {"label": "Phone Number", "type": "text", "required": false},
+    {"label": "Business Industry", "type": "text", "required": true},
+    {"label": "Brand Colors (if any)", "type": "text", "required": false},
+    {"label": "Logo Upload Link", "type": "text", "required": false},
+    {"label": "Social Handles", "type": "textarea", "required": false},
+    {"label": "Card Style Preference", "type": "textarea", "required": false},
+    {"label": "Additional Notes", "type": "textarea", "required": false}
+  ],
+  "payment_note": "This form should be paired with Stripe checkout before submission in production setup."
+}
